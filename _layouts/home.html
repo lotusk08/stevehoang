@@ -17,7 +17,14 @@
             {% include header.html %}
             {% include menu.html %}
 
-				    <!-- Test list of blog posts with an excerpt -->
+				    <!-- Posts Index
+					================================================== -->
+					<div class="blog-grid-container">
+						{% for post in paginator.posts %}
+							{% include postbox.html %}
+						{% endfor %}
+					</div>
+					<!-- Test list of blog posts with an excerpt -->
 					<ul>
 					  {% for post in site.posts %}
 						<li>
