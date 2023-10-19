@@ -5,7 +5,7 @@ email: hi@stevehoang.com
 description: Celebrate life's precious moments through the lens. Explore my collection of cherished memories, where every photograph tells a unique story. Discover the power of remembrance, one snapshot at a time.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-author:
+author: Steve Hoang
 street_address: Le Van Sy
 city: Ho Chi Minh City
 state: HCMC
@@ -23,7 +23,7 @@ instagram_url: https://www.instagram.com/whitelotusk09/
 linkedin_url: https://www.linkedin.com/in/steve-hoang-a59076a3/
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: https://twitter.com/lotusk08
 
 # build settings
 markdown: kramdown
