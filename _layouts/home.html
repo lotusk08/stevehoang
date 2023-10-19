@@ -17,7 +17,16 @@
             {% include header.html %}
             {% include menu.html %}
 
-				    <!-- Featured Post -->
+				    <!-- Test list of blog posts with an excerpt -->
+					<ul>
+					  {% for post in site.posts %}
+						<li>
+						  <a href="{{ post.url }}">{{ post.title }}</a>
+						  {{ post.excerpt }}
+						</li>
+					  {% endfor %}
+					</ul>
+					<!-- Featured Post -->
 				    <article class="post featured">
 						    <header class="major">
 								    <span class="date">April 25, 2017</span>
