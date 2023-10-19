@@ -21,12 +21,12 @@
 				    <article class="post featured">
 						    <header class="major">
 									<span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
-								    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+								    <h2><a href="{{ post.url  | relative_url }}">{{ post.title }}</a></h2>
 								    <p>{{ post.excerpt }}</p>
 						    </header>
-						    <a href="{{ post.url }}" class="image main"><img src="{{ post.image }}" alt="" /></a>
+						    <a href="{{ post.url  | relative_url }}" class="image main"><img src="{{ post.image }}" alt="" /></a>
 						    <ul class="actions">
-								    <li><a href="{{ post.url }}" class="button big">Full Story</a></li>
+								    <li><a href="{{ post.url  | relative_url }}" class="button big">Full Story</a></li>
 						    </ul>
 				    </article>
 
