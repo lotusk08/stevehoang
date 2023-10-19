@@ -3,7 +3,7 @@ title: Steve Hoang
 subtitle: Live your life you love!
 email: hi@stevehoang.com
 description: Celebrate life's precious moments through the lens. Explore my collection of cherished memories, where every photograph tells a unique story. Discover the power of remembrance, one snapshot at a time.
-baseurl: "/stevehoang-jekyll" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
 street_address: Le Van Sy
