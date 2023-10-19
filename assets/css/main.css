@@ -14,7 +14,7 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
+		font: Inter;
 		vertical-align: baseline;
 	}
 
@@ -1715,7 +1715,7 @@
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			border-bottom: 0;
-			color: inherit;
+			color: Inter;
 			text-decoration: none;
 		}
 
@@ -1934,9 +1934,9 @@
 				display: block;
 				top: 0;
 				left: 0;
-				width: inherit;
-				height: inherit;
-				line-height: inherit;
+				width: Inter;
+				height: Inter;
+				line-height: Inter;
 				font-size: 1.25rem;
 				margin-right: 0;
 				text-align: center;
@@ -2177,7 +2177,7 @@
 		appearance: none;
 		background: transparent;
 		border: solid 2px;
-		color: inherit;
+		color: Inter;
 		display: block;
 		outline: 0;
 		padding: 0 1rem;
@@ -2953,7 +2953,7 @@
 
 			.pagination .next:before, .pagination .previous:before {
 				display: inline-block;
-				color: inherit !important;
+				color: Inter !important;
 			}
 
 		.pagination .previous:before {
@@ -3523,7 +3523,7 @@
 				}
 
 					#nav ul.links li a:hover {
-						color: inherit !important;
+						color: Inter !important;
 						background-color: rgba(255, 255, 255, 0.1);
 					}
 
@@ -4237,8 +4237,8 @@
 		}
 
 		#copyright a {
-			color: inherit;
-			border-bottom-color: inherit;
+			color: Inter;
+			border-bottom-color: Inter;
 		}
 
 		#copyright ul {
