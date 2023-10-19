@@ -17,35 +17,16 @@
             {% include header.html %}
             {% include menu.html %}
 
-				    <!-- Posts Index
-					================================================== -->
-					<div class="blog-grid-container">
-						{% for post in paginator.posts %}
-							{% include postbox.html %}
-						{% endfor %}
-					</div>
-					<!-- Test list of blog posts with an excerpt -->
-					<ul>
-					  {% for post in site.posts %}
-						<li>
-						  <a href="{{ post.url }}">{{ post.title }}</a>
-						  {{ post.excerpt }}
-						</li>
-					  {% endfor %}
-					</ul>
 					<!-- Featured Post -->
 				    <article class="post featured">
 						    <header class="major">
-								    <span class="date">April 25, 2017</span>
-								    <h2><a href="#">And this is a<br />
-									      massive headline</a></h2>
-								    <p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									      facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									      amet nullam sed etiam veroeros.</p>
+									<span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
+								    <h2><<a href="{{ post.url }}">{{ post.title }}</a></h2>
+								    <p>{{ post.excerpt }}</p>
 						    </header>
-						    <a href="#" class="image main"><img src="assets/images/pic01.jpg" alt="" /></a>
+						    <a href="{{ post.url }}" class="image main"><img src="{{ post.image }}" alt="" /></a>
 						    <ul class="actions">
-								    <li><a href="#" class="button big">Full Story</a></li>
+								    <li><a href="{{ post.url }}" class="button big">Full Story</a></li>
 						    </ul>
 				    </article>
 
