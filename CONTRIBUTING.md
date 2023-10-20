@@ -10,6 +10,5 @@ code submission via a merge/pull request is great, but not necessary.
 
 If you encounter any issues with these themes on any devices, please submit a bug report with the device type and a detailed description of what 
 the issue that you're encountering is.
-<br /><br />
 
 *Thank you*
