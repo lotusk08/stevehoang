@@ -1,4 +1,4 @@
-# (WIP) Massively - Jekyll Theme
+# (WIP) A Clean blog - Jekyll Theme
 
 Clean blog theme by [Steve Hoang](https://stevehoang.com/).
 
