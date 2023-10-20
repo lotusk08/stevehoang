@@ -1,8 +1,8 @@
 # (WIP) Massively - Jekyll Theme
 
-A Jekyll version of the "Massively" theme by [HTML5 UP](https://html5up.net/).
+Clean blog theme by [Steve Hoang](https://stevehoang.com/).
 
-![Massively Theme](assets/images/massively.jpg "Massively Theme")
+![demo](assets/images/stevehoang-website.png "Clean blog theme")
 
 # How to Use
 
@@ -21,23 +21,17 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 
 # Issues
 
-If you would like to report a bug, ask a question, request a feature, feel free to do so on [the GitLab repository](https://gitlab.com/andrewbanchich/massively-jekyll-theme) and I will be more than happy to help!
+If you would like to report a bug, ask a question, request a feature, feel free to do so on [the GitHub repository](https://github.io/lotusk08/stevehoang) and I will be more than happy to help!
 
-Alternatively, you can open an issue via email by emailing [incoming+andrewbanchich/massively-jekyll-theme@incoming.gitlab.com](mailto:incoming+andrewbanchich/massively-jekyll-theme@incoming.gitlab.com).
-
-The GitHub repository is simply a mirror of the GitLab repository.
+Alternatively, you can open an issue via email by emailing [hi@stevehoang.com](mailto:hi@stevehoang.com).
 
 # Credits
 
-Original README from HTML5 UP:
-
 ```
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Free for personal and commercial use under the CCA 3.0 license
 
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
+This is Clean Blog Theme for Jekyll, a text-heavy, article-oriented design built around a huge background
 image (with a new parallax implementation I'm testing) and scroll effects (powered by
 Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
 that fulfills a few user requests and makes use of some new techniques I've been wanting
@@ -48,21 +42,17 @@ you can use for pretty much whatever.
 
 (* = not included)
 
-AJ
-aj@lkn.io | @ajlkn
-
-
 Credits:
 
 	Demo Images:
-		Unsplash (unsplash.com)
+		- Unsplash (unsplash.com)
 
 	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
+		- Font Awesome (fortawesome.github.com/Font-Awesome)
 
 	Other:
-		jQuery (jquery.com)
-		Misc. Sass functions (@HugoGiraudel)
-		Skel (skel.io)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
+		- jQuery (jquery.com)
+		- Misc. Sass functions (@HugoGiraudel)
+		- Skel (skel.io)
+		- Scrollex (github.com/ajlkn/jquery.scrollex)
 ```
