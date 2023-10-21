@@ -1,0 +1,17 @@
+/*
+	A MarkDown blog by Steve Hoang
+	stevehoang.com| @lotusk08
+	Free for personal and commercial use under the CCA 3.0 license
+*/
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		border-bottom: none;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+	}
