@@ -5,6 +5,11 @@ email: hi@stevehoang.com
 description: Celebrate life's precious moments through the lens. Explore my collection of cherished memories, where every photograph tells a unique story. Discover the power of remembrance, one snapshot at a time.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://master--frabjous-semifreddo-db674b.netlify.app/" # the base hostname & protocol for your site
+lang: en-US # default lang
+timezone: Asia/Jakarta # set your timezone
+mode: dark # default theme "dark" | "light"
+
+# Profile settings
 author: Steve Hoang
 street_address: Le Van Sy
 city: Ho Chi Minh City
@@ -25,8 +30,58 @@ pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/lotusk08
 
-# build settings
+# Collection setting
+collections:
+  posts:
+    output: true
+
+# Markdown settings
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+  
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
 
 sass:
   style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+# Plugins
+plugins:
+    - jekyll-feed
+    - jekyll-sitemap
+
+exclude:
+    - CNAME
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - CHANGELOG.md
+    - README.md
+    - node_modules
+    - CODE_OF_CONDUCT.md
+    - CONTRIBUTING.md
+    - lighthouse.png
+    - klise-*.gem
+    - klise.gemspec
