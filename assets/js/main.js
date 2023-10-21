@@ -1,7 +1,7 @@
 /*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	A MarkDown blog by Steve Hoang
+	stevehoang.com| @lotusk08
+	Free for personal and commercial use under the CCA 3.0 license
 */
 
 (function($) {
@@ -155,7 +155,7 @@
 					'<div id="navPanel">' +
 						'<nav>' +
 						'</nav>' +
-						'<a href="#navPanel" class="close"></a>' +
+						'<a href="navPanel" class="close"></a>' +
 					'</div>'
 				)
 					.appendTo($body)
